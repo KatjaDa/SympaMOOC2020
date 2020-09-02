@@ -1,0 +1,24 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top:15%;
+    /* This makes the background linear gradiant, goes from left to right and from first color to second color*/
+    background: linear-gradient(to right, #98d5e3, white);
+}
+
+.content {
+    text-align: center;
+}
+
+.button {
+    margin-top:20px;
+}
+
+.container {
+    margin: auto;
+    width: 50vw;
+}
