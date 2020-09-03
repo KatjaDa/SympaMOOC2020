@@ -4,27 +4,34 @@
 <head>
     <meta charset='UTF-8'>
     <title>Population graph app</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,300;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,300;1,500&display=swap"
+        rel="stylesheet">
     <script defer src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js'></script>
     <script defer src='./myChart.js'></script>
 </head>
 
 <body>
     <div class='content'>
-    <header> 
-        <h1>Population Graph</h1>
-    </header>
-    <p>Enter three letter <a href="https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes" target="_blank">country
-        code</a> </p>
+        <header>
+            <h1>Population Graph</h1>
+        </header>
+        <p>Enter three letter <a href="https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes" target="_blank">country
+                code</a> </p>
 
-    <input class='textinput' placeholder='Country' type='text' id='country' maxlength='3'/>
-    <p>
-        <button class='button' id='renderBtn'>Render population graph</button>
-    </p>
-    <div class = 'container'><canvas id='myChart'></canvas>
-</div>
+        <input class='textinput' placeholder='Country' type='text' id='country' maxlength='3' />
+        <p>
+            <button class='button' id='renderBtn'>Render population graph</button>
+        </p>
+        <div class='container'><canvas id='myChart'></canvas>
+        </div>
+        <footer>
+           <p>Author: Katja Dahlman</p>
+           <p>Based on the Populations graphs app (<a href ="https://github.com/mikkokotola/populationgraphs/blob/master/LICENSE">MIT</a>)</p>
+           <p>Population data: World Bank (<a href= "https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>)</p>
+        </footer>
 </body>
 
 </html>

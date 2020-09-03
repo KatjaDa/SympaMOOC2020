@@ -93,8 +93,8 @@ function renderChart(data, labels, countryName) {
                 label: 'Population, ' + countryName,
                 data: data,
                 // tästä alkaa värit, voit muokata näitä tässä tai css puolella
-                borderColor: 'rgba(75, 192, 192, 1)',
-                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                borderColor: 'rgba(0,0,0,.5)',
+                backgroundColor: 'rgba(146, 157, 161, 0.2)',
             }]
         },
         options: { // muokkaa skaalauksen alkamaan 0
